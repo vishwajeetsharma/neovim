@@ -5,4 +5,5 @@ vim.cmd("set shiftwidth=4")
 vim.opt.relativenumber=true
 
 require("config.lazy")
+require("config.lsp")
 vim.keymap.set("v", "<leader>y", '"+y')
